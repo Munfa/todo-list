@@ -96,9 +96,7 @@
             @endif
 
             <div class="row">
-                <!-- <div class="col-sm-1 text-center"> -->
-                    {{ $storedTasks->links() }}
-                <!-- </div> -->
+                 {{ $storedTasks->links() }}
             </div>
 
         </div>
