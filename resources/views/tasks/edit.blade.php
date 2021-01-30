@@ -54,7 +54,7 @@
 
                     <div class="form-group">
                         <input type="submit" value="Save Changes" class="btn btn-outline-success btn-lg">
-                        <a href="" class="btn btn-outline-danger btn-lg float-right">Go Back</a>
+                        <a href="{{route('tasks.index')}}" class="btn btn-outline-danger btn-lg float-right">Go Back</a>
                     </div>
                 </form>
             </div>
